@@ -189,7 +189,7 @@
         </div>
     </div>
     </form>
-<div id="mdata">.............................</div>
+<div id="mdata">............................</div>
     <?php
     include "db.php";
     $str1="SELECT * FROM member order by mid";
