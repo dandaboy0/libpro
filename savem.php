@@ -6,10 +6,9 @@ print_r($vals);
 $str1="select * from member order by mid desc";
 $rs1=$bdd->query($str1)or die("error on $str1");
 $row1=$rs1->fetch();
-$mid=$row1[0]+1;
 if ($vals[0]==0){
 
-    $str1="insert into member values($vals[0],'$vals[1]','$vals[2]','$vals[3]','$vals[4]','$vals[5]','$vals[6]','$vals[7]','$vals[8]','$vals[9]')";
+    $str1="insert into member values('$vals[0]','$vals[1]','$vals[2]','$vals[3]','$vals[4]','$vals[5]','$vals[6]','$vals[7]','$vals[8]','$vals[9]')";
 }
 else{
 
