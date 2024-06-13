@@ -1,2 +1,0 @@
-# libpr
-libry projrct
