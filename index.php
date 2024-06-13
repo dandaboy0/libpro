@@ -80,7 +80,7 @@
 
                 <div class="col-9">
                     <input type="text" class="form-control border-dark" placeholder="Enter Member Name" name="mname"
-                        id="mame" required>
+                        id="mname" required>
                 </div>
 
             </div>
@@ -137,15 +137,15 @@
                 </div>
 
                 <div class="col-6">
-                    <input type="number" class="form-control border-dark" placeholder="Select your section" name="Select your section" id="Select your section"
+                    <input type="number" class="form-control border-dark" placeholder="your NIC Num" name="mnic" id="mnic"
                         required>
                 </div>
                 <div class="col-6">
                     <div class="input-group ">
                         <div class="input-group-prepend">
-                            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                            <label class="input-group-text" for="msec">Options</label>
                         </div>
-                        <select class="custom-select" id="inputGroupSelect01">
+                        <select class="custom-select" id="msec">
                             <option selected>Select Your Section :-</option>
                             <option value="1">HR</option>
                             <option value="2">Admin</option>
@@ -280,7 +280,7 @@ function findbk(bno){
     $.ajax({
         type:"post",
         data:{pvals:bno},
-        url:"findbk.php",
+        url:"findm.php",
         success: function(json){$("#mdata").html(json)   }
     });
 }
