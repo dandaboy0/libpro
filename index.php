@@ -118,7 +118,7 @@
                             name="mtel" id="mtel" minlength=10>
                     </div>
                     <div class="col-6">
-                        <input type="date" class="form-control border-dark" name="mregdate" id="mregdate" required>
+                        <input type="date" class="form-control border-dark" name="mregdate" id="mregdate">
                     </div>
 
                 </div>
@@ -149,7 +149,7 @@
                                 <option selected>Select Your Section :-</option>
                                 <option value="1">HR</option>
                                 <option value="2">Admin</option>
-                                <option value="3"></option>
+                                <option value="3">Other</option>
                             </select>
                         </div>
 
