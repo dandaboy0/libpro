@@ -101,12 +101,13 @@
             <div class="content">
                 <div class="input-box">
                     <label for="name">Section</label>
-                    <select class="" name="age" required value="" id="msection">
+                    <!-- <select class="" name="age" required value="" id="msection">
                         <option value="selected hidden">Select Your Section</option>
                         <option value="HR">HR</option>
                         <option value="Admin">Admin</option>
                         <option value="Other">Other</option>
-</select>
+</select> -->
+<input type="text" placeholder="Select Your Section" id="msection" required>
                 </div>
             </div>
             <div class="content">
