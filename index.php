@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <title>Library Project</title>
-    <!-- <style>
+     <!-- <style>
         * {
             padding: 0;
             margin: 0;
@@ -101,12 +101,17 @@
             <div class="content">
                 <div class="input-box">
                     <label for="name">Section</label>
-                    <!-- <select class="" name="age" required value="" id="msection">
+
+                    <!-- <input type="radio" name="conform" value="Admin" id="mcfirm">Admin
+                <input type="radio" name="conform" value="HR" id="mcfirm">HR
+                <input type="radio" name="conform" value="Other" id="mcfirm">Other -->
+                
+                     <select class="" name="age" required value="" id="msection">
                         <option value="selected hidden">Select Your Section</option>
                         <option value="HR">HR</option>
                         <option value="Admin">Admin</option>
-                        <option value="Other">Other</option>
-</select> -->
+                        <option value="Other">Other</option> 
+</select>
 <input type="text" placeholder="Select Your Section" id="msection" required>
                 </div>
             </div>
