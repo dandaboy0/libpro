@@ -107,11 +107,11 @@
                 <input type="radio" name="conform" value="HR" id="mcfirm">HR
                 <input type="radio" name="conform" value="Other" id="mcfirm">Other -->
                 
-                     <select class="" name="age" required value="" id="msection">
+                     <!-- <select class="" name="age" required value="" id="msection">
                         <option value="selected hidden">Select Your Section</option>
                         <option value="HR">HR</option>
                         <option value="Admin">Admin</option>
-                        <option value="Other">Other</option> 
+                        <option value="Other">Other</option>  -->
 </select>
 <input type="text" placeholder="Select Your Section" id="msection" required>
                 </div>
