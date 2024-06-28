@@ -233,7 +233,7 @@
         $.ajax({
             type: "post",
             data: { pvals: bno },
-            url: "deletebk.php",
+            url: "deletem.php",
             success: function (json) { $("#mdata").html(json) }
         });
     }
