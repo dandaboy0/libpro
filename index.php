@@ -84,19 +84,19 @@
             <div class="content">
                 <div class="input-box">
                     <label for="name">Tellephon Num</label>
-                    <input type="tel" placeholder="Enter ure MIC" id="mtel" mimimem="12" required>
+                    <input type="tel"  id="mtel" minlength=10 required>
                 </div>
             </div>
             <div class="content">
                 <div class="input-box">
                     <label for="name">Registar Date</label>
-                    <input type="date" placeholder="Enter ure MIC" id="mregdate" required>
+                    <input type="date" id="mregdate" required>
                 </div>
             </div>
             <div class="content">
                 <div class="input-box">
                     <label for="name">NIC</label>
-                    <input type="tel" placeholder="Enter your National ID Number" id="mnic" required>
+                    <input type="tel" placeholder="Enter your National ID Number" id="mnic" minlength=12 required>
                 </div>
             </div>
             <div class="content">
