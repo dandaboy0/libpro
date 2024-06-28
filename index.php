@@ -83,7 +83,7 @@
             <div class="content">
                 <div class="input-box">
                     <label for="name">Tellephon Num</label>
-                    <input type="tel" placeholder="Enter ure MIC" id="mtel" required>
+                    <input type="tel" placeholder="Enter ure MIC" id="mtel" mimimem="12" required>
                 </div>
             </div>
             <div class="content">
