@@ -83,7 +83,7 @@
             </div>
             <div class="content">
                 <div class="input-box">
-                    <label for="name">Tellephon Num</label>
+                    <label for="name">Telephone Num</label>
                     <input type="tel"  id="mtel" minlength=10 required>
                 </div>
             </div>
