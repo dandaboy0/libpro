@@ -11,12 +11,12 @@ try:
     mycursor.execute(sql1)
     mydb.commit()
     mydb.database = "libpro"
-    sql2 = "CREATE TABLE member (mid INT(10) NOT NULL PRIMARY KEY, cid int(10) NOT NULL, mname cha(30), madd varchar(20), mtel int(10),mregdate date,mnic varchar(12,msection char(20),mbdate date,mcfirm int(1))"
+    sql2 = "CREATE TABLE member (mid INT(10) NOT NULL PRIMARY KEY, cid INT(10) NOT NULL, mname VARCHAR(30), madd VARCHAR(20), mtel INT(10),mregdate DATE,mnic VARCHAR(12),msection VARCHAR(20),mbdate DATE,mcfirm INT(1))"
     mycursor.execute(sql2)
     mydb.commit()
 
-    print("\n\t\t\t Database and table for 'Result Sheet Program' created successfully!")
-    print("\n\t\t\t Now you can run Result Sheet program")
+    print("\n\t\t\t Database and table for 'Library project' created successfully.")
+    print("\n\t\t\t Have a nice day !")
     x=1
     while True:
         if x==1:
