@@ -15,7 +15,12 @@ try:
     mycursor.execute(sql2)
     mydb.commit()
 
-    print("\n\t\t\t Database and table for 'Library project' created successfully.")
+    mycursor = mydb.cursor()
+    sql3 = "CREATE TABLE company (cid INT(10) NOT NULL PRIMARY KEY, cname CHAR(20), cadd VARCHAR(30), ctel INT(10))"
+    mycursor.execute(sql3)
+    mydb.commit
+
+    print("\n\t\t\t Database and tables for 'Library project' created successfully.")
     print("\n\t\t\t Have a nice day !")
     x=1
     while True:
@@ -25,7 +30,7 @@ try:
             y=3
 
 except mysql.connector.Error as err:
-    print(f"\n Error creating database or table: {err}")
+    print(f"\n Error creating database or tables: {err}")
     x=1
     while True:
         if x==1:
