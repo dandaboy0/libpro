@@ -138,7 +138,7 @@ border-collapse: collapse;
 
             </div>
             <div class="col-3">
-                <input type="button" value="save" class="form-control btn btn-success" id="find2"onclick="find()">
+                <input type="button" value="Save" class="form-control btn btn-success" id="find2"onclick="find()">
             </div>
             <div class="col-2">
 
@@ -187,9 +187,22 @@ $rs1=$bdd-> query($str1) or die ("erorr on $str1");
                 <td><?php echo $row1[7]?></td>
                 <td><?php echo $row1[8]?></td>
                 <td><?php echo $row1[9]?></td>
-                <td><input type="button" value="Edit" class="form-control text-bg-warning" id="<?php echo $row1[0]?>" onclick="findm(this.id)"></td>
                 <td>
-                    <input type="button" value="Delete" class="form-control text-bg-danger" id="<?php echo $row1[0] ?>" onclick="deletm(this.id)"></td>
+                    <input 
+                    type="button"
+                    value="Edit"
+                    class="form-control text-bg-warning"
+                    id=<?php echo $row1[0]?>
+                    onclick="findm(this.id)">
+                </td>
+                <td>
+                    <input
+                    type="button"
+                    value="Delete"
+                    class="form-control text-bg-danger"
+                    id=<?php echo $row1[0] ?>
+                    onclick="deletm(this.id)">
+                </td>
             </tr>
         <?php }?>   
     </tbody>
