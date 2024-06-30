@@ -74,7 +74,12 @@
         <p><h5>Section</h5></p>
         </div>
         <div class="col-8">
-        <input type="text" class="form-control border-dark" placeholder="Enter Your Section" name="msection" id="msection">
+         <input type="text" class="form-control border-dark" placeholder="Enter Your Section" name="msection" id="msection"> 
+         <!-- <select class="" name="msection" id="msection">
+            <option value="Admin">Admin</option>
+            <option value="HR">HR</option>
+            <option value="Manegment">Manegment</option>
+</select> -->
         </div>
         </div>
         <!------------------------------ Birth Day -->
