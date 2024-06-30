@@ -106,18 +106,24 @@ border-collapse: collapse;
         <div class="col-4">
         <p><h5>Conform</h5></p>
         </div>
-        <div class="col-8">
+        <div class="col-4">
         <input type="num" class="form-control border-dark"  name="mcfirm" id="mcfirm" value="0">
+        <div class="col-4">
+            Don't Enter It
+        </div>
         </div>
         </div>
 
         <!------------------------------------ Member ID ------------------------------------>
-        <!-- <div class="row">
+        <div class="row">
         <div class="col-4">
         <p><h5>MID</h5></p>
-        </div> -->
+        </div> 
         <div class="col-4">
         <input type="number" class=" form-control border-dark "  name="mid" id="mid" value="0" >
+        <div class="col-4">
+            Don't Enter It
+        </div>
         </div>
         </div>
 
