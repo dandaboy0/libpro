@@ -21,7 +21,7 @@ border-collapse: collapse;
 <body>
     <form method="post">
     <div class="col-10 bg-outline-warning"><center>
-        <h2>Login</h2>
+        <u><center><h1>Login</h1></center></u>
     <div class="container mt-3">
     
         <!------------------------------------ Company ID ------------------------------------>
