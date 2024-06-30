@@ -15,8 +15,8 @@ try:
     mycursor.execute(sql2)
     mydb.commit()
 
-    print("\n\t\t\t Database and table for 'Result Sheet Program' created successfully!")
-    print("\n\t\t\t Now you can run Result Sheet program")
+    print("\n\t\t\t Database and table for 'Library project' created successfully.")
+    print("\n\t\t\t Have a nice day !")
     x=1
     while True:
         if x==1:
