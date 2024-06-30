@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <title>Library Project</title>
+<<<<<<< HEAD
      <style>
         /*
+=======
+     <!-- <style>
+>>>>>>> 49a798340dc46fb8382aed65b2fb5abb93659e3b
         * {
             padding: 0;
             margin: 0;
@@ -50,8 +54,12 @@
             justify-content: space-between;
             padding: 20px; */
         }
+<<<<<<< HEAD
         */
     </style> 
+=======
+    </style>  -->
+>>>>>>> 49a798340dc46fb8382aed65b2fb5abb93659e3b
 </head>
 
 <body>
