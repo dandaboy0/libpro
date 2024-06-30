@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <title>Library Project</title>
-     <style>
+     <!-- <style>
         * {
             padding: 0;
             margin: 0;
@@ -49,7 +49,7 @@
             justify-content: space-between;
             padding: 20px; */
         }
-    </style> 
+    </style>  -->
 </head>
 
 <body>
