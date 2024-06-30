@@ -9,7 +9,7 @@ $row1=$rs1->fetch();
 $mid=$row1[0]+1;
 if ($vals[9]==0){
 
-    $str1="insert into member values($mid,'$vals[1]','$vals[2]','$vals[3]','$vals[4]','$vals[5]','$vals[6]','$vals[7]','$vals[8]','$vals[9]')";
+    $str1="insert into member values($mid,'$vals[0]','$vals[1]','$vals[2]','$vals[3]','$vals[4]','$vals[5]','$vals[6]','$vals[7]','$vals[8]')";
 }
 else{
 
