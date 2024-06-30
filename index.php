@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style.css"> 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!------------------------------------ style ------------------------------------>
+    <!-- <style>
+        table,th,td{
+    width: 800px;
+    margin: auto;
+text-align: center;
+border: 2px solid #3d0000;
+border-collapse: collapse;
+}
+    </style> -->
 </head>
 <body>
     <form method="post">
@@ -14,7 +24,7 @@
         <h2>Login</h2>
     <div class="container mt-3">
     
-        <!------------------------------------ Company ID -->
+        <!------------------------------------ Company ID ------------------------------------>
         <div class="row">
         <div class="col-4">
         <p><h5>CID</h5></p>
@@ -23,7 +33,7 @@
         <input type="number" class="form-control border-dark" placeholder="Enter Your Company ID" name="cid" id="cid">
         </div>
         </div>
-        <!-------------------------------------- Member Name -->
+        <!------------------------------------ Member Name ------------------------------------>
         <div class="row">
         <div class="col-4">
         <p><h5>Member Name</h5></p>
@@ -32,7 +42,7 @@
         <input type="text" class="form-control border-dark" placeholder="Enter Your Name" name="mname" id="mname">
         </div>
         </div>
-        <!-----------------------Address-->
+        <!------------------------------------ Address ------------------------------------>
         <div class="row">
         <div class="col-4">
         <p><h5>Address</h5></p>
@@ -41,7 +51,7 @@
         <input type="text" class="form-control border-dark" placeholder="Enter Your Address" name="madd" id="madd">
         </div>
         </div>
-        <!---------------------------------- Telephone Num -->
+        <!------------------------------------ Telephone Num ------------------------------------>
         <div class="row">
         <div class="col-4">
         <p><h5>Telephone Num</h5></p>
@@ -50,7 +60,7 @@
         <input type="number" class="form-control border-dark" placeholder="Enter Your Tel Num" name="mtel" id="mtel" minlength=10 >
         </div>
         </div>
-        <!------------------------------ Registar Date -->
+        <!------------------------------------ Registar Date ------------------------------------>
         <div class="row">
         <div class="col-4">
         <p><h5>Registar Date</h5></p>
@@ -59,7 +69,7 @@
         <input type="date" class="form-control border-dark" name="mregdate" id="mregdate">
         </div>
         </div>
-        <!------------------------------ NIC -->
+        <!------------------------------------ NIC ------------------------------------>
         <div class="row">
         <div class="col-4">
         <p><h5>NIC</h5></p>
@@ -68,7 +78,7 @@
         <input type="number" class="form-control border-dark" placeholder="Enter Your NIC" name="mnic" id="mnic">
         </div>
         </div>
-        <!------------------------------ Section -->
+        <!------------------------------------ Section ------------------------------------>
         <div class="row">
         <div class="col-4">
         <p><h5>Section</h5></p>
@@ -82,7 +92,7 @@
 </select> -->
         </div>
         </div>
-        <!------------------------------ Birth Day -->
+        <!------------------------------------ Birth Day ------------------------------------>
         <div class="row">
         <div class="col-4">
         <p><h5>Birth Day</h5></p>
@@ -91,7 +101,7 @@
         <input type="date" class="form-control border-dark"  name="mbdate" id="mbdate">
         </div>
         </div>
-        <!------------------------------ Conform -->
+        <!------------------------------------ Conform ------------------------------------>
         <div class="row">
         <div class="col-4">
         <p><h5>Conform</h5></p>
@@ -101,7 +111,7 @@
         </div>
         </div>
 
-        <!---------------------------- Member ID -->
+        <!------------------------------------ Member ID ------------------------------------>
         <!-- <div class="row">
         <div class="col-4">
         <p><h5>MID</h5></p>
@@ -111,7 +121,7 @@
         </div>
         </div>
 
-        <!------------------------------button------------------------------->
+        <!------------------------------------ button ------------------------------->
         <div class="row">
             <div class="col-2">
             </div>
@@ -140,7 +150,7 @@ include "dbase.php";
 $str1="SELECT * FROM member order by mid";
 $rs1=$bdd-> query($str1) or die ("erorr on $str1");
 ?>
-<!-----------------------------------------------Table----------------------------------->
+<!------------------------------------ Table ------------------------------------>
     <table>
     <thead>
         <tr>
