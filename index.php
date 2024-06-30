@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <title>Library Project</title>
-     <!-- <style>
+     <style>
         * {
             padding: 0;
             margin: 0;
@@ -44,12 +44,12 @@
         }
 
         .content {
-            display: flex;
+            /* display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            padding: 20px;
+            padding: 20px; */
         }
-    </style> -->
+    </style> 
 </head>
 
 <body>
@@ -60,43 +60,43 @@
             <div class="content">
                 <div class="input-box">
                     <label for="name">MID</label>
-                    <input type="number" placeholder="Enter Your Member ID" id="mid" required>
+                    <input type="number" class="form-control"placeholder="Enter Your Member ID" id="mid" required>
                 </div>
             </div>
             <div class="content">
                 <div class="input-box">
                     <label for="name">CID</label>
-                    <input type="number" placeholder="Enter Your Company ID" id="cid" required>
+                    <input type="number" class="form-control" placeholder="Enter Your Company ID" id="cid" required>
                 </div>
             </div>
             <div class="content">
                 <div class="input-box">
                     <label for="name">Member Name</label>
-                    <input type="text" placeholder="Enter Your Name" id="mname" required>
+                    <input type="text" class="form-control" placeholder="Enter Your Name" id="mname" required>
                 </div>
             </div>
             <div class="content">
                 <div class="input-box">
                     <label for="name">Address</label>
-                    <input type="text" placeholder="Enter Your Address" id="madd" required>
+                    <input type="text" class="form-control" placeholder="Enter Your Address" id="madd" required>
                 </div>
             </div>
             <div class="content">
                 <div class="input-box">
                     <label for="name">Telephone Num</label>
-                    <input type="tel"  id="mtel" minlength=10 required>
+                    <input type="tel"  class="form-control" id="mtel" minlength=10 required>
                 </div>
             </div>
             <div class="content">
                 <div class="input-box">
                     <label for="name">Registar Date</label>
-                    <input type="date" id="mregdate" required>
+                    <input type="date" class="form-control" id="mregdate" required>
                 </div>
             </div>
             <div class="content">
                 <div class="input-box">
                     <label for="name">NIC</label>
-                    <input type="tel" placeholder="Enter your National ID Number" id="mnic" minlength=12 required>
+                    <input type="tel" class="form-control" placeholder="Enter your National ID Number" id="mnic" minlength=12 required>
                 </div>
             </div>
             <div class="content">
@@ -113,13 +113,13 @@
                         <option value="Admin">Admin</option>
                         <option value="Other">Other</option>  -->
 </select>
-<input type="text" placeholder="Select Your Section" id="msection" required>
+<input type="text" class="form-control" placeholder="Select Your Section" id="msection" required>
                 </div>
             </div>
             <div class="content">
                 <div class="input-box">
                     <label for="name">Birth Day</label>
-                    <input type="date" id="mbdate">
+                    <input type="date" id="mbdate" class="form-control">
                 </div>
             </div>
             <div class="content">
@@ -130,7 +130,7 @@
             </div>
             <div class="content">
                 <div class="button">
-                    <input type="submit" onclick="find()">
+                    <input type="submit" class="form-control btn btn-success" onclick="find()">
                 </div>
             </div>
         </form>
