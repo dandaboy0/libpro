@@ -107,7 +107,7 @@ border-collapse: collapse;
         <p><h5>Conform</h5></p>
         </div>
         <div class="col-4">
-        <input type="num" class="form-control border-dark"  name="mcfirm" id="mcfirm" value="0">
+        <input type="hidden" class="form-control border-dark"  name="mcfirm" id="mcfirm" value="0">
         <div class="col-4">
             Don't Enter It
         </div>
@@ -120,7 +120,7 @@ border-collapse: collapse;
         <p><h5>MID</h5></p>
         </div> 
         <div class="col-4">
-        <input type="number" class=" form-control border-dark "  name="mid" id="mid" value="0" >
+        <input type="hidden" class=" form-control border-dark "  name="mid" id="mid" value="0" >
         <div class="col-4">
             Don't Enter It
         </div>
