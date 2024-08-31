@@ -14,7 +14,7 @@ if ($vals[9]==0){
 else{
 
     $str1="UPDATE `member` SET `cid` = '$vals[0]', `mname` = '$vals[1]', `madd` = '$vals[2]', `mtel`='$vals[3]', `mregdate`='$vals[4]', `mnic`='$vals[5]', `msection`='$vals[6]',
-     `mbdate`='$vals[7]', `mcfirm`='$vals[8]' WHERE `member`.`mid` = '$vals[9]'";
+    `mbdate`='$vals[7]', `mcfirm`='$vals[8]' WHERE `member`.`mid` = '$vals[9]'";
 }
 
 
